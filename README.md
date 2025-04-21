@@ -187,7 +187,7 @@ driver.quit()
 
 Run the image extraction script in headed mode, and you'll briefly see this page before Chrome closes:
 
-![Page shown for a fraction](https://media.brightdata.com/2024/04/Page-shown-for-a-fraction.png)
+![Page shown for a fraction](https://github.com/luminati-io/images-scraping-python/blob/main/images/Page-shown-for-a-fraction.png)
 
 The "Chrome is being controlled by automated test software" message confirms that Selenium is successfully controlling the Chrome window.
 
@@ -199,7 +199,7 @@ Before developing our image extraction logic, we need to inspect the HTML struct
 
 Visit the target site in your browser, right-click on an image, and select "Inspect" to open the DevTools:
 
-![Inspecting an image in devtools](https://media.brightdata.com/2024/04/Inspecting-an-image-in-devtools.png)
+![Inspecting an image in devtools](https://github.com/luminati-io/images-scraping-python/blob/main/images/Inspecting-an-image-in-devtools.png)
 
 From this inspection, we can observe two important details:
 
@@ -501,7 +501,7 @@ images downloaded successfully to "./images/20.jpg"
 
 Check your `/images` folder to see the automatically downloaded images:
 
-![Exploring the images folder](https://media.brightdata.com/2024/04/Exploring-the-images-folder-1.png)
+![Exploring the images folder](https://github.com/luminati-io/images-scraping-python/blob/main/images/Exploring-the-images-folder-1.png)
 
 Note that these images may differ from those shown in earlier screenshots because Unsplash continuously updates its content.
 
